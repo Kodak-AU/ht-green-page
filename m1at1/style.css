@@ -1,0 +1,192 @@
+/* CSS reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+  /* NavBar */
+
+.navbar img{
+    float: left;
+    margin-left: 0.938em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+.navbar li{
+    float: right;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+    padding-top: 3.125em;
+    padding-bottom: 1.125em;
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+a:link, a:visited, a:hover, a:active{
+    border-radius: 6px;
+    transition: all 0.3s;
+    display: inline-block;
+  }
+  a:hover{
+    color: brown;
+    transition: all 0.3s;
+  }
+
+.navbar ::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* Logo Banner at top of page */
+
+header{
+    width: auto;
+}
+
+/* Body */
+
+body{
+    background-image: url(images/bg800bulbs.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(84, 77, 71);
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{
+    background: white;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    padding: 0;
+    border-radius: 5px;
+  }
+
+  .wrapper p{
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .wrapper-2 h2, h3, h4 {
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .wrapper-2{
+    padding: 2.5em;
+  }
+
+  .wrapper-2 img{
+    float: right;
+    padding-top: 0.62rem;
+  }
+
+  .wrapper-2 p{
+    margin-bottom: 6em;
+  }
+  .wrapper-2:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.image{
+    border-radius: 15%;
+    padding-bottom: 1.25em;
+}
+
+.image ::after{
+    clear: both;
+    content: "";
+    display: block; 
+}
+
+/* Cards */
+
+.card-body{
+    max-width: 50vw;
+    background-color: rgb(249, 255, 255);
+    float: left;
+    flex: 15.625em;
+    padding: 0.625em;
+    margin-top: 1.563em;
+    border-color: rgb(192, 207, 204);
+    border-style: solid;
+    border-width: 2px 2px 2px 8px;
+    }
+
+.card-body img{
+    float: left;
+    padding-right: 1.563em;
+}
+.card-body :after{
+    clear: both;
+    content: "";
+    display: block; 
+}
+
+/* Buttons */
+
+form{
+ margin-left: 45%; 
+ margin-right: 45%; 
+}
+
+.button {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    background-color:rgb(228, 228, 228) ;
+    border-radius: 15px;
+    padding: 0.6em 3.5em;
+    cursor: pointer;
+    position: sticky;
+    margin-left: 39%;
+    margin-right: 39%;
+  }
+
+  .button-2 {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    background-color:rgb(228, 228, 228) ;
+    border-radius: 15px;
+    padding: 0.4em 0.6em;
+    cursor: pointer;
+    position: sticky;
+  }
+
+/* Footer */
+
+footer{
+    background-color: rgb(210, 104, 30);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 0.625em;
+    padding-top: 1.563em;
+    padding-bottom: 1.563em;
+    color: white;
+}
+
+footer p{
+    padding-left: 1.563em;
+}
+
